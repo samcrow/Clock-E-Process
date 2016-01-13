@@ -30,6 +30,8 @@ Development will be split into three repositories:
 
 The project will use the issue tracking and wiki features of each repository for development documentation.
 
+The project will use [Circle CI](https://circleci.com/) for continuous integration and automated test running. This website offers basic services at no charge and supports compiling Android applications.
+
 ## Licensing ##
 
 The project will be licensed under the GNU General Public License, version 3. This license prevents use of the project code in closed-source software.
