@@ -12,12 +12,6 @@ The development team chose to target Android because it is widely used and some 
 Android applications. Java is the primary language used for Android development, and all team members have experience with
 it.
 
-### Web service ###
-
-The web service component will use an existing database management system to store information.
-
-TODO: More detail
-
 ### Version control ###
 
 The project will use Git for version control, with central repositories hosted using on github.com.
