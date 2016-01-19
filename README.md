@@ -165,11 +165,23 @@ to override project manager decisions in unusual circumstances.
 ### Scheduling Algorithm ###
 
 The scheduling algorithm is the most critical part of this project. It needs to
-solve a problem with many constraints. If users do not perceive that the
+solve a problem with many constraints. The most difficult part of the algorithm is being able to adjust to users' varying times at completing different steps. If users do not perceive that the
 algorithm is better at scheduling than a person, they will not use the application.
 
 To improve the probability of the team developing a good algorithm, we have allocated a long period of time
 early in the project for algorithm design. Part of the team will work primarily
 on the algorithm.
 
-TODO: More risks
+### Acquiring Recipe Data ###
+
+A key part of this project is acquiring enough recipes to be useful for a user who may want to cook any combination of dishes. There may be difficulty in finding data sources for the recipes and then creating an automated way to pull that data and putting it into our own database (or streaming it from the source).
+
+For the early prototypes we will manually add around 10 recipes and then spend time adding recipes to the database after the scheduling algorithm is finished
+
+### Testing Difficulties ###
+
+Testing the whole application and its user interface will be more complex than
+small-scale unit testing. The testing coordinator will be responsible for
+setting up and maintaining user interface tests. If automated user interface
+testing is not feasible, the testing coordinator will develop procedures and
+test the user interface manually.
